@@ -1,0 +1,5 @@
+_unused_undead/
+_tools/preview/
+_tools/*.bak
+*.resource_order
+.DS_Store

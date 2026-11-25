@@ -19,3 +19,6 @@ hurt_flash = 0;
 
 // the 32x32 box is the collision mask and the art
 mask_index = spr_box;
+
+//limb prototype (no body visuals yet)
+limbs_init(self);

@@ -3,7 +3,7 @@
 // Base enemy. Movement is the sword game's: chase the player along an mp_grid path so enemies
 // don't get stuck behind walls. Children (fire / water) only change element and colour.
 move_speed = 1.0;
-max_hp = 30;
+max_hp = 60;
 hp = max_hp;
 dead = false;
 element = "none";                   // "fire" or "water": obj_lighting gives each its own glow

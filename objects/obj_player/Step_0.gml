@@ -1,5 +1,19 @@
 // Limb game - by Johann Varghese, Owen and team
 
+//prototype - P grants player all 4 limbs, remove later
+if(keyboard_check_pressed(ord("P"))) limbs_prototype_grant(self);
+
+//Spring (Z) overrides normal walk for short invuln arc
+if(limbs_spring_step(self)) {
+	if (invuln > 0) invuln -= 1;
+	if (hurt_flash > 0) hurt_flash -=1;
+	depth = -bbox_bottom;
+	limbs_step(self)
+	exit;
+}
+
+
+
 // ---- input: WASD ----
 var ix = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var iy = keyboard_check(ord("S")) - keyboard_check(ord("W"));
@@ -21,3 +35,5 @@ move_collide();
 if (invuln > 0) invuln -= 1;
 if (hurt_flash > 0) hurt_flash -= 1;
 depth = -bbox_bottom;       // walk behind tall props, in front of short ones
+
+limbs_step(self);

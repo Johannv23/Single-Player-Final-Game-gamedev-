@@ -16,3 +16,5 @@ draw_rectangle(x - 9 + ex, y - 6 + ey, x - 5 + ex, y + ey, false);
 draw_rectangle(x + 5 + ex, y - 6 + ey, x + 9 + ex, y + ey, false);
 draw_set_color(c_white);
 draw_hitbox(c_lime);
+
+limbs_tentacle_swing(self, true, tentacle_draw);

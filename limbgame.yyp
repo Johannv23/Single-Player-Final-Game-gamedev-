@@ -1,688 +1,142 @@
 {
-  "$GMProject": "v1",
-  "%Name": "limbgame",
-  "AudioGroups": [
-    {
-      "$GMAudioGroup": "v1",
-      "%Name": "audiogroup_default",
-      "exportDir": "",
-      "name": "audiogroup_default",
-      "resourceType": "GMAudioGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
+  "$GMProject":"v1",
+  "%Name":"limbgame",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
-  "configs": {
-    "children": [],
-    "name": "Default"
+  "configs":{
+    "children":[],
+    "name":"Default",
   },
-  "defaultScriptType": 1,
-  "Folders": [
-    {
-      "$GMFolder": "",
-      "%Name": "objects",
-      "folderPath": "folders/objects.yy",
-      "name": "objects",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "rooms",
-      "folderPath": "folders/rooms.yy",
-      "name": "rooms",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "scripts",
-      "folderPath": "folders/scripts.yy",
-      "name": "scripts",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "sounds",
-      "folderPath": "folders/sounds.yy",
-      "name": "sounds",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "sprites",
-      "folderPath": "folders/sprites.yy",
-      "name": "sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Enemies",
-      "folderPath": "folders/sprites/Enemies.yy",
-      "name": "Enemies",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Enemy Galore",
-      "folderPath": "folders/sprites/Enemies/Enemy Galore.yy",
-      "name": "Enemy Galore",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Pixel Enemies",
-      "folderPath": "folders/sprites/Enemies/Pixel Enemies.yy",
-      "name": "Pixel Enemies",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Ramses",
-      "folderPath": "folders/sprites/Enemies/Ramses.yy",
-      "name": "Ramses",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Tile Sheets",
-      "folderPath": "folders/sprites/Tile Sheets.yy",
-      "name": "Tile Sheets",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Undead Animated",
-      "folderPath": "folders/sprites/Undead Animated.yy",
-      "name": "Undead Animated",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Undead Objects",
-      "folderPath": "folders/sprites/Undead Objects.yy",
-      "name": "Undead Objects",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "tilesets",
-      "folderPath": "folders/tilesets.yy",
-      "name": "tilesets",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    }
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"scripts","folderPath":"folders/scripts.yy","name":"scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sounds","folderPath":"folders/sounds.yy","name":"sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Arms","folderPath":"folders/sprites/Arms.yy","name":"Arms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/sprites/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemy Galore","folderPath":"folders/sprites/Enemies/Enemy Galore.yy","name":"Enemy Galore","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Pixel Enemies","folderPath":"folders/sprites/Enemies/Pixel Enemies.yy","name":"Pixel Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Ramses","folderPath":"folders/sprites/Enemies/Ramses.yy","name":"Ramses","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Legs","folderPath":"folders/sprites/Legs.yy","name":"Legs","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tile Sheets","folderPath":"folders/sprites/Tile Sheets.yy","name":"Tile Sheets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Undead Animated","folderPath":"folders/sprites/Undead Animated.yy","name":"Undead Animated","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Undead Objects","folderPath":"folders/sprites/Undead Objects.yy","name":"Undead Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"tilesets","folderPath":"folders/tilesets.yy","name":"tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences": [],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2026.0.0.16"
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
   },
-  "name": "limbgame",
-  "resources": [
-    {
-      "id": {
-        "name": "obj_block",
-        "path": "objects/obj_block/obj_block.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_door",
-        "path": "objects/obj_door/obj_door.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_enemy",
-        "path": "objects/obj_enemy/obj_enemy.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_enemy_fire",
-        "path": "objects/obj_enemy_fire/obj_enemy_fire.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_enemy_water",
-        "path": "objects/obj_enemy_water/obj_enemy_water.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_game",
-        "path": "objects/obj_game/obj_game.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_landmark",
-        "path": "objects/obj_landmark/obj_landmark.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_lighting",
-        "path": "objects/obj_lighting/obj_lighting.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_player",
-        "path": "objects/obj_player/obj_player.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_prop",
-        "path": "objects/obj_prop/obj_prop.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_spawn",
-        "path": "objects/obj_spawn/obj_spawn.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_wall",
-        "path": "objects/obj_wall/obj_wall.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "rm_room_1",
-        "path": "rooms/rm_room_1/rm_room_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "scr_utility",
-        "path": "scripts/scr_utility/scr_utility.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_1",
-        "path": "sprites/spr_bones_1/spr_bones_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_10",
-        "path": "sprites/spr_bones_10/spr_bones_10.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_11",
-        "path": "sprites/spr_bones_11/spr_bones_11.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_2",
-        "path": "sprites/spr_bones_2/spr_bones_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_3",
-        "path": "sprites/spr_bones_3/spr_bones_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_4",
-        "path": "sprites/spr_bones_4/spr_bones_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_5",
-        "path": "sprites/spr_bones_5/spr_bones_5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_6",
-        "path": "sprites/spr_bones_6/spr_bones_6.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_7",
-        "path": "sprites/spr_bones_7/spr_bones_7.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_8",
-        "path": "sprites/spr_bones_8/spr_bones_8.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_bones_9",
-        "path": "sprites/spr_bones_9/spr_bones_9.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_box",
-        "path": "sprites/spr_box/spr_box.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_enemy_box",
-        "path": "sprites/spr_enemy_box/spr_enemy_box.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_eye_plant_1",
-        "path": "sprites/spr_eye_plant_1/spr_eye_plant_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_eye_plant_2",
-        "path": "sprites/spr_eye_plant_2/spr_eye_plant_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_eye_plant_3",
-        "path": "sprites/spr_eye_plant_3/spr_eye_plant_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_fetus_1",
-        "path": "sprites/spr_fetus_1/spr_fetus_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_fetus_2",
-        "path": "sprites/spr_fetus_2/spr_fetus_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_fetus_3",
-        "path": "sprites/spr_fetus_3/spr_fetus_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_jaws_plant_1",
-        "path": "sprites/spr_jaws_plant_1/spr_jaws_plant_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_jaws_plant_2",
-        "path": "sprites/spr_jaws_plant_2/spr_jaws_plant_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_jaws_plant_3",
-        "path": "sprites/spr_jaws_plant_3/spr_jaws_plant_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_many_eyes_plant_1",
-        "path": "sprites/spr_many_eyes_plant_1/spr_many_eyes_plant_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_many_eyes_plant_2",
-        "path": "sprites/spr_many_eyes_plant_2/spr_many_eyes_plant_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_many_eyes_plant_3",
-        "path": "sprites/spr_many_eyes_plant_3/spr_many_eyes_plant_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_meat_flower_1",
-        "path": "sprites/spr_meat_flower_1/spr_meat_flower_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_meat_flower_2",
-        "path": "sprites/spr_meat_flower_2/spr_meat_flower_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_meat_flower_3",
-        "path": "sprites/spr_meat_flower_3/spr_meat_flower_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_pustules_1",
-        "path": "sprites/spr_pustules_1/spr_pustules_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_pustules_2",
-        "path": "sprites/spr_pustules_2/spr_pustules_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_pustules_3",
-        "path": "sprites/spr_pustules_3/spr_pustules_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock1_1",
-        "path": "sprites/spr_rock1_1/spr_rock1_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock1_2",
-        "path": "sprites/spr_rock1_2/spr_rock1_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock1_3",
-        "path": "sprites/spr_rock1_3/spr_rock1_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock1_4",
-        "path": "sprites/spr_rock1_4/spr_rock1_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock1_5",
-        "path": "sprites/spr_rock1_5/spr_rock1_5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock3_1",
-        "path": "sprites/spr_rock3_1/spr_rock3_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock3_2",
-        "path": "sprites/spr_rock3_2/spr_rock3_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock3_3",
-        "path": "sprites/spr_rock3_3/spr_rock3_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock3_4",
-        "path": "sprites/spr_rock3_4/spr_rock3_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock3_5",
-        "path": "sprites/spr_rock3_5/spr_rock3_5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock3_6",
-        "path": "sprites/spr_rock3_6/spr_rock3_6.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock_eyes_1",
-        "path": "sprites/spr_rock_eyes_1/spr_rock_eyes_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock_eyes_2",
-        "path": "sprites/spr_rock_eyes_2/spr_rock_eyes_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock_eyes_3",
-        "path": "sprites/spr_rock_eyes_3/spr_rock_eyes_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock_eyes_4",
-        "path": "sprites/spr_rock_eyes_4/spr_rock_eyes_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rock_eyes_5",
-        "path": "sprites/spr_rock_eyes_5/spr_rock_eyes_5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ruins_3",
-        "path": "sprites/spr_ruins_3/spr_ruins_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ruins_4",
-        "path": "sprites/spr_ruins_4/spr_ruins_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ruins_5",
-        "path": "sprites/spr_ruins_5/spr_ruins_5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ruins_6",
-        "path": "sprites/spr_ruins_6/spr_ruins_6.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_spawn",
-        "path": "sprites/spr_spawn/spr_spawn.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_spike_plant_1",
-        "path": "sprites/spr_spike_plant_1/spr_spike_plant_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_spike_plant_2",
-        "path": "sprites/spr_spike_plant_2/spr_spike_plant_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_spike_plant_3",
-        "path": "sprites/spr_spike_plant_3/spr_spike_plant_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_spike_plant_4",
-        "path": "sprites/spr_spike_plant_4/spr_spike_plant_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_tentacle_plant_1",
-        "path": "sprites/spr_tentacle_plant_1/spr_tentacle_plant_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_tentacle_plant_2",
-        "path": "sprites/spr_tentacle_plant_2/spr_tentacle_plant_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_tentacle_plant_3",
-        "path": "sprites/spr_tentacle_plant_3/spr_tentacle_plant_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ts_cursed",
-        "path": "sprites/spr_ts_cursed/spr_ts_cursed.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ts_details",
-        "path": "sprites/spr_ts_details/spr_ts_details.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ts_spots",
-        "path": "sprites/spr_ts_spots/spr_ts_spots.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_tubular_plant_1",
-        "path": "sprites/spr_tubular_plant_1/spr_tubular_plant_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_tubular_plant_2",
-        "path": "sprites/spr_tubular_plant_2/spr_tubular_plant_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_tubular_plant_3",
-        "path": "sprites/spr_tubular_plant_3/spr_tubular_plant_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_veins_1",
-        "path": "sprites/spr_veins_1/spr_veins_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_veins_2",
-        "path": "sprites/spr_veins_2/spr_veins_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_veins_3",
-        "path": "sprites/spr_veins_3/spr_veins_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_veins_4",
-        "path": "sprites/spr_veins_4/spr_veins_4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_wall",
-        "path": "sprites/spr_wall/spr_wall.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "ts_cursed",
-        "path": "tilesets/ts_cursed/ts_cursed.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "ts_details",
-        "path": "tilesets/ts_details/ts_details.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "ts_spots",
-        "path": "tilesets/ts_spots/ts_spots.yy"
-      }
-    }
+  "name":"limbgame",
+  "resources":[
+    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
+    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"obj_enemy_fire","path":"objects/obj_enemy_fire/obj_enemy_fire.yy",},},
+    {"id":{"name":"obj_enemy_water","path":"objects/obj_enemy_water/obj_enemy_water.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"obj_landmark","path":"objects/obj_landmark/obj_landmark.yy",},},
+    {"id":{"name":"obj_lighting","path":"objects/obj_lighting/obj_lighting.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_proj_wizard","path":"objects/obj_proj_wizard/obj_proj_wizard.yy",},},
+    {"id":{"name":"obj_prop","path":"objects/obj_prop/obj_prop.yy",},},
+    {"id":{"name":"obj_spawn","path":"objects/obj_spawn/obj_spawn.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
+    {"id":{"name":"scr_limbs","path":"scripts/scr_limbs/scr_limbs.yy",},},
+    {"id":{"name":"scr_utility","path":"scripts/scr_utility/scr_utility.yy",},},
+    {"id":{"name":"spr_arm_tentacle","path":"sprites/spr_arm_tentacle/spr_arm_tentacle.yy",},},
+    {"id":{"name":"spr_arm_wizard_arm","path":"sprites/spr_arm_wizard_arm/spr_arm_wizard_arm.yy",},},
+    {"id":{"name":"spr_arm_wizard_fire","path":"sprites/spr_arm_wizard_fire/spr_arm_wizard_fire.yy",},},
+    {"id":{"name":"spr_bones_1","path":"sprites/spr_bones_1/spr_bones_1.yy",},},
+    {"id":{"name":"spr_bones_10","path":"sprites/spr_bones_10/spr_bones_10.yy",},},
+    {"id":{"name":"spr_bones_11","path":"sprites/spr_bones_11/spr_bones_11.yy",},},
+    {"id":{"name":"spr_bones_2","path":"sprites/spr_bones_2/spr_bones_2.yy",},},
+    {"id":{"name":"spr_bones_3","path":"sprites/spr_bones_3/spr_bones_3.yy",},},
+    {"id":{"name":"spr_bones_4","path":"sprites/spr_bones_4/spr_bones_4.yy",},},
+    {"id":{"name":"spr_bones_5","path":"sprites/spr_bones_5/spr_bones_5.yy",},},
+    {"id":{"name":"spr_bones_6","path":"sprites/spr_bones_6/spr_bones_6.yy",},},
+    {"id":{"name":"spr_bones_7","path":"sprites/spr_bones_7/spr_bones_7.yy",},},
+    {"id":{"name":"spr_bones_8","path":"sprites/spr_bones_8/spr_bones_8.yy",},},
+    {"id":{"name":"spr_bones_9","path":"sprites/spr_bones_9/spr_bones_9.yy",},},
+    {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
+    {"id":{"name":"spr_enemy_box","path":"sprites/spr_enemy_box/spr_enemy_box.yy",},},
+    {"id":{"name":"spr_eye_plant_1","path":"sprites/spr_eye_plant_1/spr_eye_plant_1.yy",},},
+    {"id":{"name":"spr_eye_plant_2","path":"sprites/spr_eye_plant_2/spr_eye_plant_2.yy",},},
+    {"id":{"name":"spr_eye_plant_3","path":"sprites/spr_eye_plant_3/spr_eye_plant_3.yy",},},
+    {"id":{"name":"spr_fetus_1","path":"sprites/spr_fetus_1/spr_fetus_1.yy",},},
+    {"id":{"name":"spr_fetus_2","path":"sprites/spr_fetus_2/spr_fetus_2.yy",},},
+    {"id":{"name":"spr_fetus_3","path":"sprites/spr_fetus_3/spr_fetus_3.yy",},},
+    {"id":{"name":"spr_jaws_plant_1","path":"sprites/spr_jaws_plant_1/spr_jaws_plant_1.yy",},},
+    {"id":{"name":"spr_jaws_plant_2","path":"sprites/spr_jaws_plant_2/spr_jaws_plant_2.yy",},},
+    {"id":{"name":"spr_jaws_plant_3","path":"sprites/spr_jaws_plant_3/spr_jaws_plant_3.yy",},},
+    {"id":{"name":"spr_leg_sonic","path":"sprites/spr_leg_sonic/spr_leg_sonic.yy",},},
+    {"id":{"name":"spr_leg_spring","path":"sprites/spr_leg_spring/spr_leg_spring.yy",},},
+    {"id":{"name":"spr_many_eyes_plant_1","path":"sprites/spr_many_eyes_plant_1/spr_many_eyes_plant_1.yy",},},
+    {"id":{"name":"spr_many_eyes_plant_2","path":"sprites/spr_many_eyes_plant_2/spr_many_eyes_plant_2.yy",},},
+    {"id":{"name":"spr_many_eyes_plant_3","path":"sprites/spr_many_eyes_plant_3/spr_many_eyes_plant_3.yy",},},
+    {"id":{"name":"spr_meat_flower_1","path":"sprites/spr_meat_flower_1/spr_meat_flower_1.yy",},},
+    {"id":{"name":"spr_meat_flower_2","path":"sprites/spr_meat_flower_2/spr_meat_flower_2.yy",},},
+    {"id":{"name":"spr_meat_flower_3","path":"sprites/spr_meat_flower_3/spr_meat_flower_3.yy",},},
+    {"id":{"name":"spr_pustules_1","path":"sprites/spr_pustules_1/spr_pustules_1.yy",},},
+    {"id":{"name":"spr_pustules_2","path":"sprites/spr_pustules_2/spr_pustules_2.yy",},},
+    {"id":{"name":"spr_pustules_3","path":"sprites/spr_pustules_3/spr_pustules_3.yy",},},
+    {"id":{"name":"spr_rock_eyes_1","path":"sprites/spr_rock_eyes_1/spr_rock_eyes_1.yy",},},
+    {"id":{"name":"spr_rock_eyes_2","path":"sprites/spr_rock_eyes_2/spr_rock_eyes_2.yy",},},
+    {"id":{"name":"spr_rock_eyes_3","path":"sprites/spr_rock_eyes_3/spr_rock_eyes_3.yy",},},
+    {"id":{"name":"spr_rock_eyes_4","path":"sprites/spr_rock_eyes_4/spr_rock_eyes_4.yy",},},
+    {"id":{"name":"spr_rock_eyes_5","path":"sprites/spr_rock_eyes_5/spr_rock_eyes_5.yy",},},
+    {"id":{"name":"spr_rock1_1","path":"sprites/spr_rock1_1/spr_rock1_1.yy",},},
+    {"id":{"name":"spr_rock1_2","path":"sprites/spr_rock1_2/spr_rock1_2.yy",},},
+    {"id":{"name":"spr_rock1_3","path":"sprites/spr_rock1_3/spr_rock1_3.yy",},},
+    {"id":{"name":"spr_rock1_4","path":"sprites/spr_rock1_4/spr_rock1_4.yy",},},
+    {"id":{"name":"spr_rock1_5","path":"sprites/spr_rock1_5/spr_rock1_5.yy",},},
+    {"id":{"name":"spr_rock3_1","path":"sprites/spr_rock3_1/spr_rock3_1.yy",},},
+    {"id":{"name":"spr_rock3_2","path":"sprites/spr_rock3_2/spr_rock3_2.yy",},},
+    {"id":{"name":"spr_rock3_3","path":"sprites/spr_rock3_3/spr_rock3_3.yy",},},
+    {"id":{"name":"spr_rock3_4","path":"sprites/spr_rock3_4/spr_rock3_4.yy",},},
+    {"id":{"name":"spr_rock3_5","path":"sprites/spr_rock3_5/spr_rock3_5.yy",},},
+    {"id":{"name":"spr_rock3_6","path":"sprites/spr_rock3_6/spr_rock3_6.yy",},},
+    {"id":{"name":"spr_ruins_3","path":"sprites/spr_ruins_3/spr_ruins_3.yy",},},
+    {"id":{"name":"spr_ruins_4","path":"sprites/spr_ruins_4/spr_ruins_4.yy",},},
+    {"id":{"name":"spr_ruins_5","path":"sprites/spr_ruins_5/spr_ruins_5.yy",},},
+    {"id":{"name":"spr_ruins_6","path":"sprites/spr_ruins_6/spr_ruins_6.yy",},},
+    {"id":{"name":"spr_spawn","path":"sprites/spr_spawn/spr_spawn.yy",},},
+    {"id":{"name":"spr_spike_plant_1","path":"sprites/spr_spike_plant_1/spr_spike_plant_1.yy",},},
+    {"id":{"name":"spr_spike_plant_2","path":"sprites/spr_spike_plant_2/spr_spike_plant_2.yy",},},
+    {"id":{"name":"spr_spike_plant_3","path":"sprites/spr_spike_plant_3/spr_spike_plant_3.yy",},},
+    {"id":{"name":"spr_spike_plant_4","path":"sprites/spr_spike_plant_4/spr_spike_plant_4.yy",},},
+    {"id":{"name":"spr_tentacle_plant_1","path":"sprites/spr_tentacle_plant_1/spr_tentacle_plant_1.yy",},},
+    {"id":{"name":"spr_tentacle_plant_2","path":"sprites/spr_tentacle_plant_2/spr_tentacle_plant_2.yy",},},
+    {"id":{"name":"spr_tentacle_plant_3","path":"sprites/spr_tentacle_plant_3/spr_tentacle_plant_3.yy",},},
+    {"id":{"name":"spr_ts_cursed","path":"sprites/spr_ts_cursed/spr_ts_cursed.yy",},},
+    {"id":{"name":"spr_ts_details","path":"sprites/spr_ts_details/spr_ts_details.yy",},},
+    {"id":{"name":"spr_ts_spots","path":"sprites/spr_ts_spots/spr_ts_spots.yy",},},
+    {"id":{"name":"spr_tubular_plant_1","path":"sprites/spr_tubular_plant_1/spr_tubular_plant_1.yy",},},
+    {"id":{"name":"spr_tubular_plant_2","path":"sprites/spr_tubular_plant_2/spr_tubular_plant_2.yy",},},
+    {"id":{"name":"spr_tubular_plant_3","path":"sprites/spr_tubular_plant_3/spr_tubular_plant_3.yy",},},
+    {"id":{"name":"spr_veins_1","path":"sprites/spr_veins_1/spr_veins_1.yy",},},
+    {"id":{"name":"spr_veins_2","path":"sprites/spr_veins_2/spr_veins_2.yy",},},
+    {"id":{"name":"spr_veins_3","path":"sprites/spr_veins_3/spr_veins_3.yy",},},
+    {"id":{"name":"spr_veins_4","path":"sprites/spr_veins_4/spr_veins_4.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"ts_cursed","path":"tilesets/ts_cursed/ts_cursed.yy",},},
+    {"id":{"name":"ts_details","path":"tilesets/ts_details/ts_details.yy",},},
+    {"id":{"name":"ts_spots","path":"tilesets/ts_spots/ts_spots.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
-    {
-      "roomId": {
-        "name": "rm_room_1",
-        "path": "rooms/rm_room_1/rm_room_1.yy"
-      }
-    }
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
   ],
-  "templateType": "game",
-  "TextureGroups": [
-    {
-      "$GMTextureGroup": "",
-      "%Name": "Default",
-      "autocrop": true,
-      "border": 2,
-      "compressFormat": "bz2",
-      "customOptions": "",
-      "directory": "",
-      "groupParent": null,
-      "isScaled": true,
-      "loadType": "default",
-      "mipsToGenerate": 0,
-      "name": "Default",
-      "resourceType": "GMTextureGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
-  ]
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
 }
